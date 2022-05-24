@@ -1,0 +1,660 @@
+\chapter{Short grammatical overview of Kalamang}
+\label{ch:grammintro}
+
+This chapter serves two goals. First, it gives a brief overview of the main structural features of the Kalamang language, such that the reader can get a grasp of the Kalamang grammar without having to go into the separate chapters. Second, it aims at equipping the reader who wants to explore the rest of the grammar with the knowledge to easily understand the data. In this chapter, contrary to the rest of the grammar, I will make extensive use of examples that are either elicited or simplified from natural speech to facilitate understanding. I roughly follow the order in which these topics are presented in the grammar.
+
+The last paragraph of this chapter places Kalamang in its areal linguistic contact, comparing it to other Austronesian and Papuan language of eastern Indonesia.
+
+\section{Phonology}
+Kalamang has 18 \isi{consonant} and five \isi{vowel} phonemes\is{phoneme}, which are given in \tabref{tab:conss} and \figref{fig:voww}.
+
+\begin{table}[ht]
+	\caption{Consonant phonemes}
+	\label{tab:conss}
+	
+		\begin{tabular}{l cc cc cc cc cc cc}
+			\lsptoprule
+			& bilabial & labiodental & alveolar & palatal & velar & glottal\\
+			\midrule
+			plosive & p b & & t d & c ɟ & k g & \\
+			nasal & m & & n & & ŋ & & \\
+			trill & & & r & & & & \\
+			fricative & & f & s & & & h\\
+			approximant & w & & & j & & &\\
+			lateral & & & l & & & &\\
+			\lspbottomrule
+		\end{tabular}
+	
+\end{table}
+
+\begin{figure}
+	\caption{Vowel phonemes}
+	\label{fig:voww}
+	\begin{tikzpicture}
+	\aeiou
+	\end{tikzpicture}
+
+
+% 		\begin{tabular}{l l l l l l l}
+% 			\lsptoprule
+% 			i&&&&&&u\\
+% 			&e&&&&o&\\
+% 			&&&a&&&\\			\lspbottomrule
+% 		\end{tabular}
+	
+\end{figure}
+
+There is little allophonic variation. Voiceless stops are unreleased in syllable-final position. There is \isi{vowel laxing} in /e/, which in closed syllables is typically pronounced [ɛ], and in open syllables [e]. 
+
+There are very few phonotactic restrictions on the phonemes in the syllable: many phonemes can occur in all positions. A notable exception is the voiced stops, which do not occur syllable-finally. Syllable structure\is{syllable structure}, however, is limited to (C)V(C), with CVCVC as the most common root form. Stress\is{stress} is non-predictable in disyllabic roots, but there is a preference for the right edge in longer roots.
+
+\section{Morphophonology}
+The most common morphophonological process is the lenition\is{lenition} of intervocalic stops as illustrated in~(\ref{exe:leni}), followed by the voicing\is{assimilation} of stops following nasals as in~(\ref{exe:voici}). Assimilation of /n/ to velars and of voiceless velar /k/ to voiced\is{voicing} velar /g/ when following /n/, results in /ŋg/, a frequent sound combination illustrated in~(\ref{exe:ngg}). 
+
+\begin{exe}
+	\ex 
+	\begin{tabbing}
+		\hspace*{6cm}\=\hspace*{4cm}\= \kill
+		/pep/ `pig' + /at/ `\textsc{obj}' \> {[ˈpewat̚]} `pig.\textsc{obj}'\\
+		/et/ `canoe' + /at/ `\textsc{obj}' \> {[ˈerat̚]} `canoe.\textsc{obj}'\\
+		/tektek/ `knife' + /at/ `\textsc{obj}' \> {[ˈtɛkteat̚]} `knife.\textsc{obj}'
+	\end{tabbing}
+	\label{exe:leni}
+\end{exe}
+
+\begin{exe}
+	\ex 
+	\begin{tabbing}
+		\hspace*{6cm}\=\hspace*{4cm}\= \kill
+		/saˈren/ `aground' + /ten/ `\textsc{at}' \> {[wat saˈrɛndɛn]} `old coconut'\\
+		/kalaˈmaŋ/ `Karas' + /ko/ `\textsc{loc}' \> {[kalaˈmaŋgo]} `on Karas'\\
+		/seram/ `Seram' + /ka/ `\textsc{lat}' \> {[seramga]} `from/to Seram'\\
+		/leŋ/ `village' + /ca/ `\textsc{2sg.poss}' \> {[ˈlɛŋɟa]} `your village'		
+	\end{tabbing}
+	\label{exe:voici}
+\end{exe}
+
+\begin{exe}
+	\ex 
+	\begin{tabbing}
+		\hspace*{6cm}\=\hspace*{4cm}\= \kill
+		/ˈtan/ `arm; hand' + /ko/ \textsc{loc} \> {[ˈtaŋgo]} `in hand; on arm'
+	\end{tabbing}
+	\label{exe:ngg}
+\end{exe}
+
+Kalamang has few affixes and many clitics. The latter can be divided into two groups: clitics of the first type show morphophonological integration with the unit they are combined with, but can attach to different word classes (typically attaching to the rightmost member of a phrase). Object marker \textit{=at}, illustrated in~\ref{exe:leni}, as well as attributive \textit{=ten}, locative \textit{=ko} and lative \textit{=ka} (see~\ref{exe:voici} and~\ref{exe:ngg}) are examples of this type of clitic. Clitics of the second type attach to one word class only but do not show morphophonological integration with the unit they are combined with. The applicative proclitic attaches to verbs only, but no lenition takes place when the verb starts with a stop, as illustrated in~(\ref{exe:kokkie}).
+
+\begin{exe}
+	\ex \begin{tabbing}
+		\hspace*{6cm}\=\hspace*{4cm}\= \kill
+		/ko/ `\textsc{appl}' + /kaŋgirar/ `face' \> [kokaŋgirar] `to face someone'
+    \end{tabbing}
+    \label{exe:kokkie}
+\end{exe}
+
+Phonology and morphology are treated in Chapter~\ref{ch:phon}, and morphological units and processes are described in Chapter~\ref{ch:word}. 
+
+\section{Nouns, noun phrases and postpositional phrases} 
+\is{noun phrase} \is{NP|see{noun phrase}} \is{PP|see{postpositional phrase}} \is{postpositional phrase}
+
+%Kalamang distinguishes between alienable and inalienable nouns. The majority of nouns are common alienable\is{alienability} nouns. There is a small group of inalienable nouns which are obligatorily inflected with a possessive suffix. Other nouns that behave differently from common alienable nouns are count nouns\is{count noun}, kinship terms and proper nouns\is{proper nouns}. Nouns can be derived from verbs with suffix \textit{-un}. Other derivational processes are agentive nominalisation, nominal compounds (both left-headed and right-headed) and reduplication\is{reduplication!nouns} of nouns. 
+
+The noun phrase (NP) is an important analytical concept in Kalamang grammar, as it is the domain of attachment of postpositions and topic and focus markers. The object NP is marked with object postposition\is{postposition} \textit{=at}, forming a postpositional phrase (PP).
+
+\begin{exe}
+    \ex \gll ma ror cicaun=at pue\\
+    \textsc{3sg} tree small=\textsc{obj} hit\\
+    \glt `He/she hits the small tree.'
+\end{exe}
+
+There are eight other postpositions, which indicate the function of peripheral NPs. They are all enclitics that attach to the right edge of the NP. They are the comitative, instrumental, benefactive, similative, locative, ablative/allative (henceforth lative), animate locative and animate lative postpositions. These postpositions head the PP, and are illustrated in~(\ref{exe:ppfirst}) to~(\ref{exe:pplast}) on NPs consisting of a single noun. 
+
+\begin{exe}
+    \ex \gll ma=bon kiun=bon se bot\\
+    \textsc{3sg=com} wife.\textsc{3sg.poss=com} {\glse} go\\
+    \glt `He and his wife have gone.'
+    \label{exe:ppfirst}
+    \ex \gll ka pasa=at sasul=ki na\\
+    \textsc{2sg} rice=\textsc{obj} spoon=\textsc{ins} consume\\
+    \glt `You eat rice with a spoon.'
+    \ex \gll canam kewe=at kiun=ki paruo\\
+    man house=\textsc{obj} wife.\textsc{3sg.poss=ben} make\\
+    \glt `The man makes a house for his wife.'
+    \ex \gll ma per=kap\\
+    \textsc{3sg} water=\textsc{sim}\\
+    \glt `It's like water.'
+    \ex \gll kasamin-an kewe=ko\\
+    bird-\textsc{1sg.poss} house=\textsc{loc}\\
+    \glt `My bird is in the house.'
+    \ex \gll tumun wilak=ka bot\\
+    child sea=\textsc{lat} go\\
+    \glt `The child goes to the sea.'
+    \label{exe:pplast}
+\end{exe}
+
+Kalamang has no articles\is{determiner*}\is{article*}, so the definite/indefinite\is{definiteness*} translations in the elicited examples are based on whatever makes most sense in the context, if there is any.
+
+The NP is left-headed\is{headedness}, except for nominal possessors\is{possession}, which precede the possessed noun. Besides nominal possessors, nouns can be modified by quantifiers, possessive pronouns, demonstratives, attributively used predicates and relative clauses. The relative ordering of these is not quite clear, and combinations of modifiers is very rare in the Kalamang corpus, so examples illustrating one modifier at a time are given in~(\ref{exe:balfirst}) to~(\ref{exe:ballast}).
+
+\begin{exe}
+    \ex \gll bal muap-un\\
+    dog food-\textsc{3poss}\\
+    \glt `the dog's food'
+    \label{exe:balfirst}
+    \ex \gll bal eir kanggeit\\
+    dog two play\\
+    \glt `Two dogs play.'
+    \ex \gll bal anggon kanggeit\\
+    dog \textsc{1sg.prox} play\\
+    \glt `My dog plays.'    
+    \ex \gll bal wa kanggeit\\
+    dog \textsc{prox} play\\
+    \glt `This dog plays.'
+    \ex \gll bal kotur-ten kanggeit\\
+    dog dirty-\textsc{at} play\\
+    \glt `A dirty dog plays.'
+    \label{exe:ballast}
+\end{exe}
+
+Nouns, NPs and PPs are the topic of Chapter~\ref{ch:noun}. Noun modifiers are discussed in Chapters~\ref{ch:pron} to~\ref{ch:dems}.
+
+\section{Pronouns}
+Kalamang has seven basic pronouns\is{pronoun} (Chapter~\ref{ch:pron}), with a \isi{clusivity} distinction in the first-person plural and no gender distinctions, and an additional four dual pronouns. There are four other pronominal paradigms, which are largely derived from the basic pronouns with the help of suffixes. These are restricting and collective pronouns, collective pronouns (meaning `all') and \isi{possessive} pronouns. All paradigms are given in Table~\ref{tab:pronounss}.
+
+\begin{table}
+	\caption{Pronominal paradigms}
+	\label{tab:pronounss}
+	
+		\begin{tabular}{l l l l}
+			\lsptoprule
+			&	\textsc{sg}	& \textsc{du} & \textsc{pl}\\			\midrule
+			%&&&\\
+			\multicolumn{4}{l}{Basic}\\
+			\midrule
+			1	&	\textit{an}	& \textit{inier} (\textsc{ex}) & \textit{in} (\textsc{ex})\\
+			&& \textit{pier} (\textsc{in}) & \textit{pi} (\textsc{in})\\
+			2	&	\textit{ka}	& \textit{kier} &	\textit{ki}\\
+			3	&	\textit{ma}	& \textit{mier} &	\textit{mu}\\ 
+			%\arrayrulecolor{black} \hline
+			&&&\\
+			\multicolumn{4}{l}{Quantifying \textit{-(ah)utak}}\\
+			\midrule
+			%& \textsc{sg} &&\textsc{pl} \\			\midrule
+			1 & \textit{an(ah)utak} && \textit{in(h)utak} (\textsc{ex})\\
+			&&& \textit{pi(h)utak} (\textsc{in})\\
+			2 & \textit{ka(h)utak} && \textit{ki(h)utak} \\
+			3 & \textit{ma(h)utak} && \textit{mu(h)utak} \\
+			%\arrayrulecolor{black} \hline
+			&&&\\
+			\multicolumn{4}{l}{Restrictive/contrastive focus \textit{-tain}}\\
+			\midrule
+			%& \textsc{sg} &&\textsc{pl} \\ \midrule
+			1 & \textit{andain} && \textit{indain} (\textsc{ex})\\
+			&&& \textit{pirain} (\textsc{in})\\
+			2 & \textit{karain} && \textit{kirain}\\
+			3 & \textit{marain} && \textit{murain}\\
+			%\arrayrulecolor{black} \hline
+			&&&\\
+			\multicolumn{4}{l}{Collective \textit{-(n)aninggan}}\\
+			\midrule
+			%& \textsc{sg} &&\textsc{pl} \\ \midrule
+			1 &&& \textit{inaninggan} (\textsc{ex})\\
+			&&& \textit{pinaninggan} (\textsc{in})\\
+			2 &&& \textit{kinaninggan}\\
+			3 &&& \textit{munaninggan}\\
+			%\arrayrulecolor{black} \hline
+			&&&\\
+			\multicolumn{4}{l}{Possessive}\\
+			\midrule
+			%& \textsc{sg} &&\textsc{pl} \\ \midrule
+			1	&	\textit{anggon}	&& 	\textit{inggon} (\textsc{ex})\\
+			& &&  \textit{pin} (\textsc{in})\\
+			2	&	\textit{kain}	&&	\textit{kin}\\
+			3	&	\textit{main}	&&	\textit{muin}\\ \arrayrulecolor{black} \lspbottomrule 	
+		\end{tabular}
+	
+\end{table}
+
+All pronouns must be marked with object marker \textit{=at} when in object position. The possibility and obligatoriness of other postposition marking varies between the paradigms. (\ref{exe:pronfirst}) to (\ref{exe:mumuinat}) illustrate the use of the pronouns. Note that the third person singular may refer to animate males and females as well as inanimates\is{animacy}.
+
+\begin{exe}
+    \ex \gll ki pi=at konawaruo\\
+    \textsc{2pl} \textsc{1pl.incl=obj} forget\\
+    \glt `You forget us.'
+    \label{exe:pronfirst}
+    \ex \gll ma-tain gonggin\\
+    \textsc{3sg}-alone know\\
+    \glt `Only she knows.'
+    \ex \gll Ramina ma-hutak bara\\
+    Ramina \textsc{3sg}-alone descend\\
+    \glt `Only Ramina comes down.'
+    \ex \gll in-naninggan bo kelek=ko\\
+    \textsc{1pl.excl}-all go mountain=\textsc{loc}\\
+    \glt `We all go to the mountain.'
+    \ex \gll mu muin=at jie\\
+    \textsc{3pl} \textsc{3pl.poss=obj} get\\
+    \glt `They get theirs.'
+    \label{exe:mumuinat}
+\end{exe}
+
+Non-pronominal reference and address is very common in Kalamang, and can be done with the help of \isi{kinship} terms, names\is{names!personal names} (including nicknames) and teknonyms. The most common non-pronominal reference and address is by the name of their first (grand)child, followed by the appropriate kinship term, inflected for third person possessive.
+
+\begin{exe}
+    \ex \gll Safril esun Juaria tara-un=at gerket\\ 
+    Safril father.\textsc{3poss} Juaria grandfather-\textsc{3poss=obj} ask\\
+    \glt `Safril's father asks Juaria's grandfather.'
+    \label{exe:safril}
+\end{exe}
+
+Possessive constructions (Chapter~\ref{ch:poss}) can be made with possessive suffixes (example~\ref{exe:safril}), possessive pronouns (example~\ref{exe:mumuinat}) or a combination of both, illustrated in~(\ref{exe:possposs}). 
+
+\begin{exe}
+    \ex \gll tumtum per-an anggon na\\
+    children water-\textsc{1sg.poss} \textsc{1sg.poss} consume\\
+    \glt `Children drink my water.'
+    \label{exe:possposs}
+\end{exe}
+
+The most common construction is with possessive suffixes. Some minor patterns for the use of possessive constructions with just a freestanding possessive pronoun or a combination of suffix and pronoun can be identified, but it is difficult to define the conditions that govern the choice between the three patterns with the currently available data. 
+
+A fourth strategy for expressing possessive relations, with clitic \textit{=kin}, is used for several kinds of associative\is{association} or general possessive relations. One such associative relation is illustrated here.
+
+\begin{exe}
+    \ex \gll guru leng=kin\\
+    teacher village=\textsc{poss}\\
+    \glt `the teacher of the village/the village teacher'
+\end{exe}
+
+\section{Demonstratives}
+There are six \isi{demonstrative} forms: proximal \textit{wa}, distal \textit{me}, far distal \textit{owa}, anaphoric \textit{opa} and the elevationals \textit{yawe} `\textsc{down}' and \textit{osa} `\textsc{up}'. The proximal and distal forms are the most frequent and are very versatile, with spatial, temporal and anaphoric uses, and derived forms expressing manner or quality, quantity and degree. The distal form and its derivatives also have several functions in organising discourse. The basic forms and their syntactic use are given in Table~\ref{tab:demintro}.
+
+\begin{table}[ht]
+	\caption{Demonstratives and their syntactic use}
+	\label{tab:demintro}
+		\begin{tabular}{l l ccc}
+			\lsptoprule 
+			form&gloss&pronominal&adnominal&identificational\\
+			\midrule
+			\textit{wa} & \textsc{prox} & $+$ & $+$ & $+$\\
+			\textit{me} & \textsc{dist}&  $+$ & $+$ & $+$\\
+			\textit{owa} & \textsc{fdist}&&$+$&$+$\\
+			\textit{yawe} & \textsc{down} &&$+$&$+$\\
+			\textit{osa} & \textsc{up} &&$+$&$+$\\
+			\textit{opa} & \textsc{ana} &  & $+$&\\
+			\lspbottomrule
+		\end{tabular}
+\end{table}
+
+The following examples illustrate some common uses of demonstratives and their derived forms. Note that locative and lative forms of the demonstratives contain the phonemes \textit{-t} and \textit{-n}, which are likely remnants of now defunct morphology. To increase readability of the glosses, and because these forms are very frequent, the locative \textit{wa-t=ko} and \textit{me-t=ko} and lative \textit{wa-n=ka} and \textit{me-n=ka} are given as their surface forms \textit{watko}, \textit{metko}, \textit{wangga} and \textit{mengga}. Note also that the object forms of distal \textit{me} and \textit{yawe} `down' are \textit{met} and \textit{yawet} (not \textit{me=at} and \textit{yawe=at}).
+
+\begin{exe}
+    \ex \gll wangga mei\\
+    \textsc{prox.lat} come.\textsc{imp}\\
+    \glt `Come here!'
+    \ex \gll an don met mormor\\
+    \textsc{1sg} thing \textsc{dist.obj} hide\\
+    \glt `I hide that thing.' 
+    \ex \gll mu amdir yawet paruot=kin\\
+    \textsc{3pl} garden \textsc{down.obj} make={\glkin}\\
+    \glt `They want to make that garden down there.'
+    \ex \gll pulor opa tamatko\\
+    betel\_vine {\glopa} where\\
+    \glt `Where is that betel vine (that we just saw or talked about)?'
+\end{exe}
+
+Demonstratives are discussed in Chapter~\ref{ch:dems}.
+
+\section{Verbs}
+Kalamang has regular and irregular verbs\is{verb!irregular}. Regular verbs can take mood enclitics, negator \textit{=nin} and predicate linker \textit{=i} directly on the root. Irregular verbs have a variable root ending in a vowel, \textit{-n} or \textit{-t}. This variation is apparent when the roots are inflected and from variation in the uninflected root. Table~\ref{tab:verbcomp} compares inflection of a regular verb with that of an irregular verb.
+
+\begin{table}
+	\caption{Behaviour of a regular and irregular verb under inflection}
+	
+		\begin{tabular}{l l l l }
+			\lsptoprule
+			 && \textit{muap} & \textit{paruo}/\textit{paruo\textbf{n}}\\
+			 && `eat' & `do'\\ \midrule
+			\textit{=i} & \textsc{plnk} & \textit{muap=i} & \textit{paruo\textbf{n}=i}\\
+			\textit{=et} & \glet & \textit{muap=et} & \textit{paruo\textbf{t}=et} \\
+			\textit{=kin} & \glkin  & \textit{muap=kin}& \textit{paruo\textbf{t}=kin} \\
+			\textit{=nin} & \textsc{neg} & \textit{muap=nin} & \textit{paruo\textbf{t}=nin}\\
+			\textit{=in} & \textsc{proh} & \textit{muap=in} & \textit{paruo\textbf{t}=in}\\
+			\textit{=te} & \textsc{imp} & \textit{muap=te} & \textit{paru}\\ 	\lspbottomrule
+		\end{tabular}
+	
+	\label{tab:verbcomp}
+\end{table}
+
+Although some syntactic and semantic tendencies can be identified (static intransitive verbs and Malay loans tend to be regular; many `cut' verbs and all directional verbs are irregular), both groups contain verbs of all valencies and with all kinds of meanings. Verbs are not inflected for person or number, with the exception of plural imperative and a distributive suffix.\is{person marking}
+
+There are two processes of verb derivation: noun-to-verb derivation by reduplication\is{reduplication!verbs}, and \isi{noun incorporation}. These are illustrated in~(\ref{exe:ntv}) and~(\ref{exe:ncrp}).
+
+\begin{exe}
+    \ex \textit{buok} `betel' → \textit{buokbuok} `to chew betel'
+        \label{exe:ntv}
+    \ex \gll per-na, wat-na\\
+    water-consume, coconut-consume\\
+    \glt `to drink water, to eat coconut'
+        \label{exe:ncrp}
+ \end{exe}
+
+Verbs may be reduplicated to \is{intensification}intensify their meaning, or to indicate \isi{habitual aspect}, \is{durative}durativity or distribution\is{distributive}. The latter three meanings may not be easy to separate. A few examples with possible translations are given below. Static intransitive verbs are typically partly reduplicated either leftward or rightward, whereas other verbs are fully reduplicated.
+
+\begin{exe}
+    \ex \textit{kerkap} `to be red' → \textit{kerkap∼kap} `to be very red'
+    \ex \textit{paruo} `to do' → \textit{paruo∼paruo} `to usually do; to do for a long time'
+    \ex \textit{winyal} `to fish' → \textit{winyal∼winyal} `to fish for a long time; to fish in different places in an area'
+\end{exe}
+
+The following four \is{valency}valency-changing operations and constructions are attested: \isi{reflexive} constructions, \isi{reciprocal} constructions, applicatives\is{applicative} and causative\is{causative} constructions. Kalamang has no passive\is{passive*}. (\ref{exe:undei}) to~(\ref{exe:rodi}) give examples of the four operations, all of them executed with help of a prefix or proclitic on the predicate. For reflexives and causatives other constructions are available, too.
+
+\begin{exe}
+    \ex \gll ma-tain se un-deir=i luk\\
+	\textsc{3sg}-alone {\glse} \textsc{refl}-bring={\gli} come\\
+	\glt `She came herself.' (Lit. `She brought herself coming.') \jambox*{\href{http://hdl.handle.net/10050/00-0000-0000-0004-1BBC-4}{[narr24\_5:33]}}
+	\label{exe:undei}
+	\ex \gll mu nau=tu\\
+	\textsc{3pl} \textsc{recp}=hit\\
+	\glt `They hit each other.'
+	\ex \gll mier torpes-ko=ar\\
+	\textsc{3du} shell-\textsc{appl}-dive\\
+	\glt `They two dive for shells.'
+	\ex \gll mu ror=at di=maruan\\
+    \textsc{3pl} wood=\textsc{obj} \textsc{caus}=move\_seawards\\
+	\glt `They move the wood seawards.'
+	\label{exe:rodi}
+\end{exe}
+
+The verb class includes property words like \textit{baranggap} `to be yellow' and \textit{cicaun} `to be small'. Predicates can be made attributive\is{adjective*} with the help of attributive\is{attribute} clitic \textit{=ten}. The attributive marker is often lacking on common attributes like colors and words for `small' and `big'.
+
+Verbs and verbal morphology are described in Chapter~\ref{ch:verbs}. Aspect, mood and modality marking takes place at predicate or clause level, as introduced in §\ref{sec:clamod}. Kalamang has no tense marking.
+
+\section{Simple clauses}
+As is apparent from many examples above, Kalamang has SV and APV constituent order with nominative-accusative alignment\is{alignment}\is{ergative*}. Only the object is overtly marked. Subject and object are not cross-referenced on the verb. The following two examples illustrate an intransitive and a transitive clause.
+
+\begin{exe}
+    \ex \gll in kiem\\
+    \textsc{1pl.excl} flee\\
+    \glt `We flee.'
+    \ex \gll in sor=at potma\\
+    \textsc{1pl.excl} fish=\textsc{obj} cut\\
+    \glt `We cut fish.'
+\end{exe}
+
+Kalamang has several trivalent verbs\is{ditransitive clause}. It is uncommon to express both direct and indirect object, but when done, they are both marked with object marker \textit{=at} (hence its analysis as object marker and not as accusative). The verb `to give' has deviant behaviour. It is a zero morpheme that triggers different morphology depending on whether the recipient is expressed as a pronoun or as a noun. The four possible give-constructions\is{give-construction} are given in Table~\ref{tab:givee}.
+
+\begin{table}[!ht]
+	\caption[Give-constructions]{All possible give-constructions for the clauses `he gives the sandals to his friend' and `he gives the sandals to me'.}
+	\label{tab:givee}
+		\footnotesize
+		\begin{tabular}{l l l l l l l l}
+			\lsptoprule
+			&	 	& A & T=\textsc{obj} & \textsc{caus}= & R & =\textsc{ben} & give \\ \midrule
+			Nominal R & Option 1	& \textit{ma} &	\textit{sandal=at} & \textit{di}= & \textit{temanun} & \textit{=ki}& \textit{∅}\\
+			&& \textsc{3sg} & sandal=\textsc{obj} & \textsc{caus}= & his friend & =\textsc{ben} & give\\
+			& Option 2 & \textit{ma} & \textit{sandal=at} & & \textit{temanun} &\textit{=ki} & \textit{∅}\\
+			&& \textsc{3sg} & sandal=\textsc{obj} & & his friend & =\textsc{ben} & give\\
+			\midrule 
+			Pronominal R & Option 1 & \textit{ma} & \textit{sandal=at} & \textit{di=} & \textit{an} &&\textit{∅}\\
+			&& \textsc{3sg} & sandal=\textsc{obj} & \textsc{caus}= & \textsc{1sg} &&give \\
+			& Option 2 & \textit{ma} & \textit{sandal=at} &&\textit{an}&&\textit{∅}\\ 
+			&& \textsc{3sg} & sandal=\textsc{obj} &  & \textsc{1sg} && give\\
+			\lspbottomrule
+		\end{tabular}
+\end{table}
+
+Non-verbal clauses are common, since any property of an argument can act as a predicate with no overt copula\is{copula*} needed. In~(\ref{exe:nonvfirst}) to (\ref{exe:nonvlast}), examples of locative, nominal and quantifier clauses are presented.
+
+\begin{exe}
+    \ex \gll mu tok watko\\
+    \textsc{3pl} still there\\
+    \glt `They are still there.'
+    \label{exe:nonvfirst}
+    \ex \gll tumun kon guru\\
+    child one teacher\\
+    \glt `One child is a teacher.'
+    \ex \gll kewe-an eir\\
+    house-\textsc{3poss} two\\
+   \glt `I have two houses.'
+   \label{exe:nonvlast}
+\end{exe}
+
+In natural spoken Kalamang, when retrievable from the context, either the subject or the object may be elided\is{elision}, depending on which stays the same across clauses or utterances.
+
+Simple clauses are discussed in Chapter~\ref{ch:clause}.
+
+\section{Complex predicates}
+Complex predicates\is{predicate!complex} (Chapter~\ref{ch:svc}) include serial verb constructions and other monoclausal constructions with more than one verb or verb-like element, most of which are linked with the help of predicate linker \textit{=i}, as in~(\ref{exe:eni}).
+
+\begin{exe}
+    \ex \gll ma ecien=i bara\\
+    \textsc{3sg} return={\gli} descend\\
+    \glt `He returns down.'
+    \label{exe:eni}
+\end{exe}
+
+Complex predicates may also be formed with the dependent verbs\is{verb!dependent} \textit{kuru} `bring', \textit{bon} `bring', \textit{toni} `say; think; want' and \textit{eranun} `cannot'.
+
+Other common types of complex predicates are complex source, goal and location constructions, which are mainly made with the help of the locative and lative postpositions and a varying number of verbs. Two locative examples are given in~(\ref{exe:enii}) and~(\ref{exe:karouu}). Recall that locatives are frequently used predicatively.
+
+\begin{exe}
+    \ex \gll ma ecien=i kewe=ko\\
+    \textsc{3sg} return={\gli} house=\textsc{loc}\\
+    \glt `He returns home.'
+    \label{exe:enii}
+    \ex \gll ma sara bo karop-un osa-t=ko\\
+	\textsc{3sg} ascend go branch-\textsc{3poss} \textsc{up}-{\gltt}=\textsc{loc}\\
+	\glt `He climbed up to the branch up there.' \jambox*{\href{http://hdl.handle.net/10050/00-0000-0000-0004-1BBD-5}{[conv12\_16:39]}}
+	\label{exe:karouu}
+\end{exe}
+
+The two very common clitics \textit{=te} and \mbox{\textit{=ta}} are tentatively analysed as marking verbs as \is{non-final}non-final within the clause, or as expressing a non-final state or event across clauses. An example with \textit{=te} is given in~(\ref{exe:mute}). Both clitics are discussed in Chapter~\ref{ch:compl} on complex clauses.
+
+\begin{exe}
+	\ex \gll ka mu ∅=\textbf{te} mu na\\
+	\textsc{2sg} \textsc{3pl} give={\glte} \textsc{3pl} consume\\
+	\glt `You give [the food] to them, they eat. \jambox*{\href{http://hdl.handle.net/10050/00-0000-0000-0004-1BA2-F}{[conv11\_5:18]}}
+	\label{exe:mute}
+\end{exe}
+
+\section{Clausal modification}
+\label{sec:clamod}
+Clausal modification encompasses strategies for expressing the \isi{mood}, \isi{aspect} or \isi{mode} of a verb or clause, or specifying the \isi{manner}, temporal setting, degree or other characteristics of the state or event expressed by the predicate, such as repetition or exclusivity. Kalamang uses different morphological units (words, clitics, affixes and particles) in different slots in the clause to achieve this. Several of these attach to the right edge of the predicate, as was illustrated in Table~\ref{tab:verbcomp}. Kalamang has no tense markers.
+
+% Of special interest is the \is{prohibitive}prohibitive mood, which is expressed on both the subject pronoun and the predicate.
+
+% \begin{exe}
+%     \ex \gll ka-mun tabai-kosom=in\\
+%     \textsc{2sg-proh} tobacco-smoke=\textsc{proh}\\
+%     \glt `Don't you smoke!'
+%     \label{exe:prohh}
+% \end{exe}    
+
+Among the most common clausal modifiers are the aspectual markers \is{iamitive}iamitive \textit{se} (roughly `already') and \is{nondum}nondum \textit{tok} (`(not) yet; still; first'), which follow the subject NP and cover a wide range of functions, some of them in combination with negator \textit{=nin}. The four basic meanings `already' and `not anymore', and `still' and `not yet' are illustrated in~(\ref{exe:alr}) to~(\ref{exe:ntyet}).
+
+\begin{exe}
+    \ex \gll an se tumun-an=at boubou\\
+    \textsc{1sg} {\glse} child-\textsc{1sg.poss=obj} bathe\\
+   \glt `I already bathed my child.'
+    \label{exe:alr}
+    \ex \gll an se tumun-an=at boubou=nin\\
+    \textsc{1sg} {\glse} child-\textsc{1sg.poss=obj} bathe=\textsc{neg}\\
+    \glt `I'm not bathing my child anymore.'    
+    \ex \gll an tok tumun-an=at boubou\\
+    \textsc{1sg} still child-\textsc{1sg.poss=obj} bathe\\
+    \glt `I'm still bathing my child.'
+    \ex \gll an tok tumun-an=at boubou=nin\\
+    \textsc{1sg} yet child-\textsc{1sg.poss=obj} bathe=\textsc{neg}\\
+    \glt `I haven't yet bathed my child.'    
+    \label{exe:ntyet}
+\end{exe}
+
+\section{Topic and focus}
+Kalamang has a common and versatile \is{topic}topic marker \textit{me} and two \is{focus}focus markers \textit{=a} and \textit{=ba}. The topic marker typically follows the NP or PP and the focus markers attach to the NP or PP. The most typical uses are illustrated here.
+
+\begin{exe}
+    \ex \gll canam me me ma kip=at sem\\
+    man \textsc{dist} {\glme} \textsc{3sg} snake=\textsc{obj} afraid\\
+    \glt `As for that man, he is afraid of snakes.'
+    \ex \gll canam me me kip=at sem\\
+    man \textsc{dist} {\glme} snake=\textsc{obj} afraid\\
+    \glt `That man is afraid of snakes.'
+    \ex \gll ka neba=at=a paruo\\
+    \textsc{2sg} what=\textsc{obj=foc} do\\
+    \glt `What are you doing?'
+\end{exe}
+
+Topic and focus are described in Chapter~\ref{ch:inf}.
+
+\section{Areal linguistic context}\is{East Indonesian languages}
+Because Kalamang is spoken in an area with long-standing contact between Austronesian\is{Austronesian} (AN) and non-Austronesian (Papuan) languages\is{Papuan (non-Austronesian) languages}, in this section, I compare Kalamang to AN and Papuan languages in East Indonesia. The picture that this comparison sketches of Kalamang is that of a language with a fair number of both AN and Papuan grammatical features, but which is not a typical example of either. Nor is Kalamang a typical language of the proposed linguistic areas in East Indonesia \parencite{klamerewing2010,schapper2015,klamer2008}. Obviously, such classifications are entirely dependent on the selection of the features, which in turn is dependent on the available linguistic data.\footnote{In fact, if one takes into account the WALS features and languages, the Papuan languages do not stand apart from the rest of the world's languages at all \parencite{comrie2012}.} Problems with the notion of linguistic area are summarised in \citet[][13]{klamerewing2010}, see also sources therein. Nevertheless, the comparisons made in this section show how Kalamang fits into our current knowledge of the common features of Papuan and Austronesian languages.
+\largerpage
+
+
+
+\begin{table}[t]
+	\caption{Characteristics of Austronesian languages in East Nusantara \parencite{klamerewing2010}}
+	\label{tab:anchar}
+	
+		\footnotesize
+		\begin{tabularx}{\textwidth}{Xll}
+			\lsptoprule
+			& Kalamang & reference \\\midrule 
+			\textbf{Phonology} &&\\
+			\midrule
+			prenasalised consonants & $+$/$-$ & §\ref{sec:prenas}\\
+			roots are generally CVCV & $-$ & §\ref{sec:syll}\\
+			{} $-$ dispreference for homorganic consonant clusters & $+$/$-$ & §\ref{sec:taccons}, §\ref{sec:hiatus}\\ 
+			{} $-$ dispreference for closed syllables, creation of open syllables & $-$ &§\ref{sec:syll}\\
+			metathesis & $-$ & §\ref{sec:meta}\\
+			\textbf{Morphology} &&\\
+			\midrule
+			no productive voice system on verbs & $+$ & §\ref{sec:valency}\\
+			agent/subject indexed on verb as prefix/proclitic & $-$ & §\ref{sec:valency}\\
+			morphological distinction between alienable/inalienable nouns & $+$ & §\ref{sec:inal}\\
+			left-headed compounds & $+$/$-$ & §\ref{sec:nomcomp}\\
+			inclusive/exclusive distinction in pronouns & $+$ & §\ref{sec:pronref}\\
+			\textbf{Syntax} &&\\
+			\midrule
+			verb-object order  & $-$ & §\ref{sec:clintro}\\
+			prepositions & $-$ & §\ref{sec:case}\\
+			possessor-possessum order & $+$ & §\ref{sec:possphr}\\
+			noun-numeral order & $+$ & §\ref{sec:nmodqnt}\\
+			clause-final negators & $+$ & §\ref{sec:standneg}\\
+			clause-initial indigenous complementisers &$-$& §\ref{sec:complclause}\\
+			absence of a passive construction & $+$ & not treated\\
+			formally marked adverbial/complement clauses & $-$ & §\ref{sec:complclause}\\
+			\textbf{Other} &&\\
+			\midrule
+			parallelisms without stylistic optionality& $-$ & not treated\\ \lspbottomrule 
+		\end{tabularx}
+	
+\end{table}
+
+\newpage
+\textcite{klamerewing2010} summarise previous proposals for characterising the AN languages of East Nusantara\is{East Nusantara languages|see{East Indonesian languages}} and Papuan languages.\footnote{\citet[][1]{klamerewing2010}: ``[W]e define East Nusantara as a geographical area that extends from Sumbawa to the west, across the islands of East Nusa Tenggara, Maluku including Halmahera, and to the Bird's Head of New Guinea in the east [...]. In the northwest, the area is bounded by Sulawesi.''} The characteristics of AN languages in East Nusantara are given in Table~\ref{tab:anchar}. The characteristics of Papuan languages are given in Table~\ref{tab:papchar}. Note that the Papuan characteristics are for all Papuan languages, not just those spoken in East Nusantara. Both lists are compared with Kalamang.\is{prenasalisation}\is{syllable structure}\is{metathesis}\is{voice*}\is{alienability}\is{compound}\is{clusivity}\is{preposition*}\is{possessor-possessum order}\is{negation}\is{passive*}\is{parallellism*}
+
+\begin{table}[t]
+	\caption{Characteristics of Papuan languages \parencite{klamerewing2010}}
+	\label{tab:papchar}
+	
+		\footnotesize
+		\begin{tabularx}{\textwidth}{Xll}
+			\lsptoprule
+			& Kalamang & reference \\\midrule 
+			\textbf{Phonology} &&\\
+			\midrule
+			no distinction between /r/ and /l/ & $-$ & §\ref{sec:invent}, but cf. §\ref{sec:consvar}\\ 
+			\textbf{Morphology} &&\\
+			\midrule
+			marking of gender\is{gender} & $-$ & Ch. \ref{ch:noun}\\
+			subject marked as suffix on verb & $-$& §\ref{sec:valency}\\
+			no inclusive/exclusive distinction in pronouns & $-$& §\ref{sec:pronref}\\
+			morphological distinction between al. and inal. nouns & $+$ & §\ref{sec:inal}\\
+			\textbf{Syntax} &&\\
+			\midrule
+			object-verb order & $+$&§\ref{sec:clintro}\\
+			subject-verb order &$+$&§\ref{sec:clintro}\\
+			postpositions\is{postposition} & $+$& §\ref{sec:case}\\
+			possessor-possessum order & $+$ & §\ref{sec:possphr}\\
+			clause-final negators & $+$ &§\ref{sec:standneg}\\
+			clause-final conjunctions & $+$ & §\ref{sec:clauseconj}\\ 
+			clause-chaining\is{clause-chaining} & $+$ & §\ref{sec:tailhead} \\
+			switch reference\is{switch reference*} & $-$& not treated\\
+			medial vs. final verbs & $-$ & not treated\\
+			serial verb constructions\is{serial verb construction} & $+$ & Ch. \ref{ch:svc}\\ \lspbottomrule 
+		\end{tabularx}
+	
+\end{table}
+
+Of the 19 AN characteristics, Kalamang shares 7 wholly and 3 partially. Of the 15 Papuan characteristics, Kalamang shares 9. So while Kalamang is more similar to the Papuan languages, at least when we look at these particular features, it also shares many characteristics with the AN languages of East Nusantara. This is not surprising, given that Kalamang likely has a long history of contact with AN languages (see §\ref{sec:hist}).
+
+One can see there is some overlap between the features in Tables~\ref{tab:anchar} and~\ref{tab:papchar}. \citet[][1]{klamer2008} give five ``defining'' features that the AN and Papuan languages of East Nusantara have in common, represented and compared to Kalamang in Table~\ref{tab:papanchar}.
+
+\begin{table}[t]
+	\caption{Characteristics of languages in East Nusantara \parencite{klamer2008}}
+	\label{tab:papanchar}
+	
+		\footnotesize
+		\begin{tabularx}{\textwidth}{Xll}
+			\lspbottomrule
+			& Kalamang & reference \\
+			\midrule
+			possessor-possessum order & $+$ & §\ref{sec:possphr}\\
+			overt marking of difference alienability in possession & $-$ & Ch. \ref{ch:poss}\\
+			clause-final negators & $+$ & §\ref{sec:standneg}\\
+			subject-verb-object order & $-$ & §\ref{sec:clintro}\\	
+			inclusive/exclusive distinction in pronouns & $+$ & §\ref{sec:pronref}\\\lspbottomrule 
+		\end{tabularx}
+	
+\end{table}
+
+The first three defining features of East Nusantara languages – possessor-possessum order, a difference in marking between alienable and inalienable possessed nouns, and clause-final negation – are considered to be Papuan features that have influenced the AN languages in the region. Kalamang has the first and the third. The fourth and fifth features – SVO constituent order and clusivity in pronouns – are considered to be AN features that have been adopted by many Papuan languages in the region. Kalamang has the latter.
+
+
+
+
+
+\largerpage
+\textcite{klamer2008} define the East Nusantara area, but are criticised for not looking to languages further west and especially east in doing so \parencite{schapper2015}. The latter publication defines Melanesian\is{Melanesian languages} features, and proposes an area within East Indonesia called linguistic Wallacea\is{Wallacea, linguistic|see{East Indonesian languages}}.\footnote{Melanesia, based on the features considered in \textcite{schapper2015}, ``begins in the area of Flores-Sumba-Timor, reaches through New Guinea and into the Bismarck Archipelago, and concludes in Vanuatu-New Caledonia'' (p.122). Linguistic Wallacea is similar to East Nusantara. Linguistic Wallacea differs from Biological Wallacea in that the former does not include Sulawesi and the latter does not include any parts of New Guinea.} Table~\ref{tab:melanchar} lists the Melanesian features and compares them to Kalamang.
+
+
+\begin{table}[h]
+	\caption{Characteristics of languages in Melanesia \parencite{schapper2015}}
+	\label{tab:melanchar}
+
+		\footnotesize
+		\begin{tabularx}{\textwidth}{Xll}
+			\lsptoprule
+			& Kalamang & reference \\
+			\midrule
+			possessive classification & ? & Ch. \ref{ch:poss}\\
+			complex numerals below ten & $+$ & §\ref{sec:cardnum}\\
+			noun-numeral order & $+$ & §\ref{sec:nmodqnt}\\
+			absence of /ŋ/ & $-$ & §\ref{sec:invent}\\
+			possessor-possessum order & $+$ & §\ref{sec:possphr}\\
+			clause-final negator & $+$ & §\ref{sec:standneg}\\\lsptoprule
+		\end{tabularx}
+
+\end{table}
+\clearpage
+
+Kalamang has four of the six features. While Kalamang exhibits different ways to make possessive constructions, it is not clear what governs the use of these strategies, and so it is unclear whether we can speak of possessive classification. The only Melanesian feature that Kalamang clearly does not share is absence of /ŋ/. Being able to exclude Melanesian features from a proposal for an East Indonesian linguistic area, \textcite{schapper2015} proposes four features that define linguistic Wallacea, given in Table~\ref{tab:wallachar}. Kalamang does not possess any of the proposed characteristics of AN and Papuan languages in Wallacea.
+
+\begin{table}[t]
+	\caption{Characteristics of languages in Wallacea \parencite{schapper2015}}
+	\label{tab:wallachar}
+	
+		\footnotesize
+		\begin{tabularx}{\textwidth}{Xll}
+			\lsptoprule
+			& Kalamang & Reference \\\midrule 
+			semantic alignment of verbal person markers & $-$ & §\ref{sec:valency}\\
+			neuter gender\is{gender} & $-$ & Ch. \ref{ch:noun}\\
+			reflex of *muku `banana' & $-$ & not treated\\
+			synchronic metathesis & $-$ & §\ref{sec:meta}\\\lspbottomrule 
+		\end{tabularx}
+	
+\end{table}
+~ \hfill ~

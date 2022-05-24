@@ -1,0 +1,27 @@
+% There is normally no need to change the backmatter section. 
+% The most relevant files are main.tex and the files in the folder chapters/
+
+\backmatter
+\phantomsection%this allows hyperlink in ToC to work
+{\sloppy\printbibliography[heading=references]}
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{\lsIndexTitle}
+\addcontentsline{toc}{section}{\lsNameIndexTitle}
+\ohead{\lsNameIndexTitle}
+\printindex
+\cleardoublepage
+
+
+\phantomsection
+\addcontentsline{toc}{section}{\lsLanguageIndexTitle}
+\ohead{\lsLanguageIndexTitle}
+\printindex[lan]
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{section}{\lsSubjectIndexTitle}
+\ohead{\lsSubjectIndexTitle}
+\printindex[sbj][Linguistic concepts that were not used for the analysis of or do not occur in Kalamang are listed with an asterisk (*) and a reference to a relevant section or chapter.]
+\ohead{}

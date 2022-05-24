@@ -1,0 +1,42 @@
+\newcommand*{\orcid}{}
+
+%glosses
+\newcommand{\glkin}{\textsc{vol}}
+\newcommand{\glme}{\textsc{top}}
+\newcommand{\glhe}{\textsc{iam}}
+\newcommand{\glteba}{\textsc{prog}}
+\newcommand{\glte}{\textsc{nfin}}
+\newcommand{\glta}{\textsc{nfin}}
+\newcommand{\glra}{\textsc{ra}}
+\newcommand{\glse}{\textsc{iam}}
+\newcommand{\glet}{\textsc{irr}}
+\newcommand{\glkinp}{\textsc{poss}}
+\newcommand{\gli}{\textsc{plnk}}
+\newcommand{\glnn}{\textsc{n}}
+\newcommand{\glp}{\textsc{distr}}
+\newcommand{\glmambon}{\textsc{exist}}
+\newcommand{\glopa}{\textsc{ana}}
+\newcommand{\gltt}{\textsc{t}}
+\newcommand{\glba}{\textsc{foc}}
+\newcommand{\glcond}{\textsc{cond}}
+\newcommand{\glten}{\textsc{ten}}
+
+%wordlist
+\newenvironment{letter}[1]{\phantomsection  %
+%\addcontentsline{toc}{section}{#1}%
+\begin{multicols}{2}[%
+\addvspace{1.5\baselineskip}%
+\scalebox{1.5}{\bfseries\Huge #1}%
+]%
+}%
+{%
+\end{multicols}%
+}
+
+\newcommand\newentry{~\\}
+\newcommand{\headword}[1]{\itshape{#1}\markboth{#1}{#1}}
+\newcommand\pos[1]{ \normalfont\textsc{#1} }
+\newcommand\glosses{\normalfont}
+\newcommand\sensenr[1]{ \normalfont(#1)}
+\newcommand\english[1]{\\\itshape{#1}\markboth{#1}{#1} }
+\newcommand\kalamang[1]{\normalfont{#1}}

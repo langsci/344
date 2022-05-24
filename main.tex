@@ -1,0 +1,66 @@
+  \PassOptionsToPackage{indonesian,main=english}{babel}
+\documentclass[output=book,
+%   colorlinks,citecolor=brown,
+%  draft,draftmode,
+%  showindex,
+		  ]{langscibook}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%          additional packages                 %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{localmetadata.tex}
+\input{localpackages.tex}
+\input{localhyphenation.tex}
+\input{localcommands.tex}
+\addbibresource{localbibliography.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%             Frontmatter                      %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \includeonly{chapters/acknowledgments}
+\begin{document}
+
+\maketitle
+\frontmatter
+
+
+% \currentpdfbookmark{Contents}{name} % adds a PDF bookmark
+{\sloppy\tableofcontents}
+   \include{chapters/acknowledgments}
+   \include{chapters/abbreviations}
+   \include{chapters/IndonesianSummary}
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%             Chapters                         %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters/01Introduction}
+\include{chapters/02GrammIntro}
+\include{chapters/03Phonology}
+\include{chapters/04MorphologicalUnits}
+\include{chapters/05Wordclasses}
+\include{chapters/06Nouns} 	
+\include{chapters/07Pronouns}
+\include{chapters/08Quantifiers}
+\include{chapters/09Possessive}
+\include{chapters/10Demonstratives}
+\include{chapters/11Verbs}
+\include{chapters/12Clause}
+\include{chapters/13ComplexPredicates}
+\include{chapters/14Clausemod}
+\include{chapters/15MulticlausalConstructions}
+\include{chapters/16InformationStructure}
+\include{chapters/17OtherTopics}
+
+\appendix
+\sloppy
+\include{chapters/Appendices} % this here?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%             Backmatter                       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sloppy
+\input{backmatter.tex}
+\end{document}
