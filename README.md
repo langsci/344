@@ -1,4 +1,4 @@
-# A grammar of Kalamang % \subtitle{The Papuan language of the Karas Islands}
+# A grammar of Kalamang
 ## Publication Info
 - Authors: Eline Visser
 - Publication Date: not yet published
